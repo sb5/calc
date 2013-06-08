@@ -130,7 +130,7 @@
                             <constraint firstAttribute="bottom" secondItem="3CU-oD-sJl" secondAttribute="bottom" constant="176" id="yh3-PN-Y8I"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="7"/>
+                    <tabBarItem key="tabBarItem" title="Methanol" image="first.png" id="7"/>
                     <connections>
                         <outlet property="segmentedControl1" destination="3gw-gx-MA2" id="Fbu-ht-i4f"/>
                         <outlet property="textField1" destination="kE6-rY-gBb" id="VyF-aF-NFJ"/>
@@ -286,7 +286,7 @@
                             <constraint firstItem="vgd-jy-NEw" firstAttribute="centerX" secondItem="ff1-qj-qPQ" secondAttribute="centerX" type="default" id="yi0-sT-e27"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="alc yield " image="second" id="6"/>
+                    <tabBarItem key="tabBarItem" title="alc yield " image="first.png" id="6"/>
                     <connections>
                         <outlet property="label2" destination="TSA-NN-ojb" id="w53-rY-fcx"/>
                         <outlet property="segmentedControl2" destination="7B9-Tv-H2m" id="vIp-Wc-C83"/>
@@ -304,6 +304,7 @@
             <objects>
                 <tabBarController id="4" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -321,8 +322,7 @@
     </scenes>
     <resources>
         <image name="Default.png" width="320" height="480"/>
-        <image name="first" width="16" height="16"/>
-        <image name="second" width="16" height="16"/>
+        <image name="first.png" width="30" height="30"/>
     </resources>
     <classes>
         <class className="FirstViewController" superclassName="UIViewController">
