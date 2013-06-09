@@ -23,6 +23,8 @@
 		520FBC1C175F316B00C984EE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520FBC1B175F316B00C984EE /* SecondViewController.m */; };
 		520FBC1E175F316B00C984EE /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FBC1D175F316B00C984EE /* second.png */; };
 		520FBC20175F316B00C984EE /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 520FBC1F175F316B00C984EE /* second@2x.png */; };
+		52BB7F0217646C7B006D4903 /* still_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BB7F0117646C7B006D4903 /* still_icon.png */; };
+		52BB7F0417646CC5006D4903 /* still_icon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BB7F0317646CC5006D4903 /* still_icon_retina.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		520FBC1B175F316B00C984EE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		520FBC1D175F316B00C984EE /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		520FBC1F175F316B00C984EE /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		52BB7F0117646C7B006D4903 /* still_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = still_icon.png; sourceTree = "<group>"; };
+		52BB7F0317646CC5006D4903 /* still_icon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = still_icon_retina.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 		520FBBEC175F316B00C984EE = {
 			isa = PBXGroup;
 			children = (
+				52BB7F0317646CC5006D4903 /* still_icon_retina.png */,
+				52BB7F0117646C7B006D4903 /* still_icon.png */,
 				520FBBFE175F316B00C984EE /* sb */,
 				520FBBF7175F316B00C984EE /* Frameworks */,
 				520FBBF6175F316B00C984EE /* Products */,
@@ -184,6 +190,8 @@
 				520FBC19175F316B00C984EE /* first@2x.png in Resources */,
 				520FBC1E175F316B00C984EE /* second.png in Resources */,
 				520FBC20175F316B00C984EE /* second@2x.png in Resources */,
+				52BB7F0217646C7B006D4903 /* still_icon.png in Resources */,
+				52BB7F0417646CC5006D4903 /* still_icon_retina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +256,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -272,7 +280,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -285,7 +293,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sb/sb-Prefix.pch";
 				INFOPLIST_FILE = "sb/sb-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -296,7 +306,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sb/sb-Prefix.pch";
 				INFOPLIST_FILE = "sb/sb-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -320,6 +332,7 @@
 				520FBC25175F316B00C984EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
